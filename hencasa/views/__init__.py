@@ -1,0 +1,7 @@
+from .usuarioDetailView import UsuarioDetailView
+from .medicoDetailView import MedicoDetailView
+from .pacienteDetailView import PacienteDetailView
+from .familiarDetailView import FamiliarDetailView
+from .familiarCreateView import FamiliarCreateView
+from .pacienteCreateView import PacienteCreateView
+from .medicoCreateView import MedicoCreateView
