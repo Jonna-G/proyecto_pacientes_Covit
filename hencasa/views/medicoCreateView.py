@@ -13,7 +13,7 @@ class MedicoCreateView(generics.ListCreateAPIView):
         print('POST a usuarios')
         print(request.data)
         usuarioData = request.data.pop('usuario')
-        serializerU = usuarioSerializer(data=usuarioData)
+        serializerU = medicoSerializer(data=usuarioData)
         serializerU.is_valid(raise_exception=True)
         usuario = serializerU.save()
         return Response(status=status.HTTP_201_CREATED)

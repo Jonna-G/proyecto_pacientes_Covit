@@ -5,3 +5,9 @@ from .familiarDetailView import FamiliarDetailView
 from .familiarCreateView import FamiliarCreateView
 from .pacienteCreateView import PacienteCreateView
 from .medicoCreateView import MedicoCreateView
+from .asignacionDetailView import AsignacionDetailView
+from .asignacionCreateView import AsignacionCreateView
+from .diagnosticoDetailView import DiagnosticoDetailView 
+from .diagnosticoCreateView import DiagnosticoCreateView
+from .historiamedicaDetailView import HistoriamedicaDetailView 
+from .historiamedicaCreateView import HistoriamedicaCreateView

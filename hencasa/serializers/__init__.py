@@ -3,5 +3,5 @@ from .medicoSerializer import MedicoSerializer
 from .pacienteSerializer import PacienteSerializer
 from .usuarioSerializer import UsuarioSerializer
 from .asignacionSerializer import AsignacionSerializer
-from .diagnosticoSerializer import DiagnosticoSeralizer
-from .historiamedicaSerializer import HistoriamedicaSerializers
+from .diagnosticoSerializer import DiagnosticoSerializer
+from .historiamedicaSerializer import HistoriamedicaSerializer
